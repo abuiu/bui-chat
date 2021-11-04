@@ -1,0 +1,26 @@
+{
+  "name": "bui-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abuiu/bui-chat.git"
+  },
+  "author": "Andrei Buiu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abuiu/bui-chat/issues"
+  },
+  "homepage": "https://github.com/abuiu/bui-chat#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.3.1",
+    "twilio": "^3.71.1",
+    "uuid": "^8.3.2"
+  }
+}
